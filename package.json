@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "Website for Studion events",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggspastore/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Giovanni Garcia de Souza Pastore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggspastore/studion/issues"
+  },
+  "homepage": "https://github.com/ggspastore/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
