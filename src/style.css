@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,7 +12,7 @@
 }
 
 body {
-  padding-top: 7.75rem;
+  padding-top: 6rem;
   margin: 0;
 }
 
@@ -25,7 +25,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 7.75rem;
+  height: 6rem;
   padding: 0 15vw;
   background-color: #000;
   color: #fff;
@@ -81,7 +81,7 @@ ul {
 }
 
 .slide {
-  height: calc(90vh - 7.75rem);
+  height: calc(90vh - 6rem);
   min-height: 34rem;
   position: relative;
 }
@@ -100,7 +100,7 @@ ul {
 }
 
 .slide__copy h3 {
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
@@ -121,20 +121,175 @@ ul {
 .btn {
   cursor: pointer;
   padding: 1rem 2.5rem;
-  border: .125rem solid #fff;
+  border: 0.125rem solid #fff;
   border-radius: 10rem;
   color: var(--color-primary);
   background: unset;
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   font-weight: 700;
   text-transform: uppercase;
   transition: 0.5s all ease;
 }
 
-.btn:hover, 
-.btn:active, 
+.btn:hover,
+.btn:active,
 .btn:focus {
   border-color: var(--color-primary);
   background-color: var(--color-primary);
   color: #000;
+}
+
+/* ------------------end of slider--------------------- */
+
+.section__numbers {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 20vh;
+  width: 100%;
+  min-height: 12.5rem;
+  padding: 0 20vw;
+  background-color: var(--color-primary);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.section__numbers ul {
+  margin: 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7rem;
+}
+
+.section__numbers h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/* ---------------end of last class--------------- */
+
+.sctn {
+  height: calc(90vh - 6rem);
+  min-height: 34rem;
+}
+
+.sctn--one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  padding: 0 15vw;
+  gap: 3rem;
+}
+
+.sctn--one img {
+  width: 40vw;
+}
+
+.sctn--one__div {
+  position: relative;
+  top: 10vh;
+}
+
+.sctn--one h3 {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sctn--one h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.btn--two {
+  border: 0.125rem solid var(--color-primary);
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn--two:hover,
+.btn--two:active,
+.btn--two:focus {
+  border-color: #000;
+  background-color: #000;
+  color: var(--color-primary);
+}
+
+/* -------------------------end of section one--------------------------- */
+
+.sctn--two__parallax {
+  background-image: url(./images/parallax.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sctn--two__box {
+  height: 65vh;
+  width: 40vw;
+  position: relative;
+  top: 5vh;
+  left: 45vw;
+  background-color: #fff;
+  padding: 5rem 5rem 4rem 4rem;
+  color: #000;
+  background-size: contain;
+}
+
+.sctn--two__box h3 {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1875rem;
+}
+
+.sctn--two__box h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 5rem;
+  margin: 2rem 0;
+}
+
+.btn--three {
+  border-color: #000;
+  background-color: #fff;
+  color: #000;
+}
+
+.btn--three:hover,
+.btn--three:active,
+.btn--three:focus{
+  border-color: #000;
+  background-color: #000;
+  color: #fff;
+}
+
+/* ---------------end of section two-------------------*/
+
+footer {
+  height: 40vh;
+  padding: 7vh 15vw;
+  background-color: #000;
+  color: #fff;
+}
+
+.div__footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-areas: "a b c" "d d d" "e e e";
+}
+
+footer h2 {
+  margin: 0;
+}
+
+.grid-e {
+  text-align: center;
 }
