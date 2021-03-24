@@ -12,95 +12,65 @@
     <nav class="navbar">
       <div class="container navbar__container">
         <h1 class="logo-studion">
+          <a href="./index.html">
           Studi<span class="copy--primary">on</span><br /><span
             class="logo-studion__subtitle"
-            >Eventos</span
-          >
+            >Eventos</span>
+        </a>
         </h1>
         <ul class="navbar__links">
           <li><a href="#empresa">Empresa</a></li>
           <li><a href="#eventos">Eventos</a></li>
           <li><a href="#galeria">Galeria</a></li>
           <li><a href="#depoimentos">Depoimentos</a></li>
-          <li><a href="./contact.html">Contato</a></li>
+          <li><a class="active" href="./contact.html">Contato</a></li>
         </ul>
       </div>
     </nav>
 
     <header>
-      <div id="slider">
-        <div class="slide">
-          <img
-            class="slide__background-image"
-            src="./images/banner.jpg"
-            alt="banner da Studion"
-          />
-          <div class="slide__copy">
-            <h3>
-              <span class="copy--primary">Próximo evento</span> - Dia 25 de
-              setembro às 19h
-            </h3>
-            <h2><span class="copy--primary">Creative</span><br /> Minds</h2>
-            <button class="btn btn--slide">Saiba Mais</button>
+      <div class="hero">
+        <img src="./images/contact.jpg" alt="" />
+        <div class="container hero__container">
+          <div class="hero__copy">
+            <h2>.contact</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolore magni soluta nemo rerum quaerat ea! Temporibus, accusantium dignissimos quasi vitae ab, animi error iusto nobis, velit consequatur aut cum?</p>
           </div>
         </div>
       </div>
     </header>
 
     <main>
-      <section id="counter">
-        <ul class="container counter__container">
-          <li>
-            <h3>
-              + de 500<br />
-              <small>eventos realizados</small>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              + de 1.000.000<br />
-              <small>de ingressos vendidos</small>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              + de 300<br />
-              <small>empresas atendidas</small>
-            </h3>
-          </li>
-        </ul>
-      </section>
+      <section class="contact">
 
-      <section class="container institutional">
-        <div>
-          <img
-            class="institutional__image"
-            src="./images/institutional.jpg"
-            alt="institucional Studion"
-          />
-        </div>
-        <div class="institutional__copy">
-          <h3>Fazemos seu evento acontecer</h3>
-          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            quibusdam sunt atque quos! Tenetur, sint. Culpa molestias qui
-            perspiciatis ratione cupiditate.
-          </p>
-          <button class="btn btn--institutional">Saiba Mais</button>
-        </div>
-      </section>
+        <section class="contact__info">
+          <h3>Liga pra gente</h3>
+          <span><i class="fas fa-phone-alt"></i></span>
+          +55 21 3435-5580
+          <span><i class="fab fa-whatsapp"></i></span>
+          +55 21 99331-8083
+          <h3>Venha conhecer a nossa casa</h3>
+          <span><i class="fas fa-map-marker-alt"></i></span>
+          Rua Miguel Daux, 129 - Coqueiros - Florianópolis / SC
+        </section>
 
-      <section class="quote">
-        <div class="container quote__container" title="Evento street dance Studion">
-          <div class="quote__copy">
-            <h3>
-              Você informa a temática e nós planejamos um evento com tecnologia e
-            </h3>
-            <h2><span class="copy--primary">Muito+</span><br /> diversão</h2>
-            <button class="btn btn--quote">Fazer cotação</button>
-          </div>
-        </div>
+        <section class="contact__form">
+          <h3>Deixe sua mensagem</h3>
+          <form action="">
+            <label for="name">Seu nome</label>
+            <input id="name" type="text" />
+            <label for="e-mail">Seu e-mail</label>
+            <input id="e-mail" type="text" />
+            <label for="message">Sua mensagem</label>
+            <input id="message" type="text" />
+            <button class="btn btn--contact" type="submit">Enviar</button>
+          </form>
+        </section>
+
+        <section class="maps">
+
+        </section>
+
       </section>
     </main>
 
