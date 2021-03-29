@@ -1,10 +1,14 @@
+body {
+  padding-top: 0rem;
+}
+
 #slider {
   background-color: #000;
   color: #fff;
 }
 
 .slide {
-  height: calc(90vh - 6rem);
+  height: 90vh;
   min-height: 34rem;
   position: relative;
 }
@@ -69,8 +73,6 @@
   font-size: 1rem;
 }
 
-/* ---------------end of last class--------------- */
-
 .institutional {
   min-height: 90vh;
   display: grid;
@@ -111,7 +113,7 @@
 }
 
 .quote {
-  background-image: url("./images/contact.jpg");
+  background-image: url("../images/parallax.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
