@@ -21,15 +21,24 @@
     bottom: 0;
     right: 0;
     width: 40vw;
-    padding: 7rem 1.875rem;
+    padding: 7rem 4rem 1.875rem 1.875rem;
 }
 
 .hero__copy h2 {
-    margin: 0;
-    font-size: 7.5rem;
+    margin: 0 0 2rem;
+    font-size: 5.25rem;
     line-height: 7.5rem;
     letter-spacing: -0.3125rem;
     color: var(--color-primary);
+}
+
+.hero__copy h3 {
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-size: 0.9375rem;
+    font-weight: 400;
+    letter-spacing: 0.25rem;
 }
 
 .hero__copy p {

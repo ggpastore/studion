@@ -12,6 +12,11 @@
   outline: none;
 }
 
+.btn a {
+  text-decoration: none;
+  color: unset;
+}
+
 .btn:hover,
 .btn:active,
 .btn:focus,
