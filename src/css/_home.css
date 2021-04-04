@@ -2,9 +2,34 @@ body {
   padding-top: 0rem;
 }
 
-#slider {
+.slider {
   background-color: #000;
   color: #fff;
+}
+
+.slider__prev-arrow,
+.slider__next-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0.3125rem solid #FFF9;
+  border-right: unset;
+  border-bottom: unset;
+}
+
+.slider__prev-arrow {
+  left: 5vw;
+  z-index: 1;
+  transform: rotate(-45deg);
+}
+
+.slider__next-arrow {
+  right: 5vw;
+  transform: rotate(135deg);
+}
+
+.slider__prev-arrow::before,
+.slider__next-arrow::before {
+  content: "";
 }
 
 .slide {
