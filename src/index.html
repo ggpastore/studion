@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studion</title>
+    <link rel="stylesheet" href="../slick/slick.min.css"/>
+    <link rel="stylesheet" href="../slick/slick-theme.min.css"/>
     <link rel="stylesheet" href="./style.css" />
   </head>
 
@@ -28,7 +30,7 @@
     </nav>
 
     <header>
-      <div id="slider">
+      <div class="slider">
         <div class="slide">
           <img
             class="slide__background-image"
@@ -42,6 +44,38 @@
             </h3>
             <h2><span class="copy--primary">Creative</span><br /> Minds</h2>
             <button class="btn btn--slide">Saiba Mais</button>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img
+            class="slide__background-image"
+            src="./images/banner2.jpg"
+            alt="banner da Studion"
+          />
+          <div class="slide__copy">
+            <h3>
+              <span class="copy--primary">Próximo evento</span> - Dia 28 de
+              setembro às 19h
+            </h3>
+            <h2><span class="copy--primary">F4ST</span><br /> FORW4RD</h2>
+            <button class="btn btn--slide">Confira</button>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img
+            class="slide__background-image"
+            src="./images/banner3.jpg"
+            alt="banner da Studion"
+          />
+          <div class="slide__copy">
+            <h3>
+              <span class="copy--primary">Próximo evento</span> - Dia 29 de
+              setembro às 19h
+            </h3>
+            <h2><span class="copy--primary">SHOW</span><br /> TIME</h2>
+            <button class="btn btn--slide">Fique por dentro</button>
           </div>
         </div>
       </div>
@@ -118,7 +152,7 @@
             <label for="email">Receba news e promoções</label>
             <div class="footer__form__email">
               <input id="email" type="email" placeholder="email" />
-              <button type="submit"><i class="fas fa-paper-plane fa-2x"></i></button>
+              <button class="footer__form-button" type="submit"><i class="fas fa-paper-plane fa-2x"></i></button>
             </div>
           </form>
         </div>
@@ -143,6 +177,11 @@
           >
         </p>
       </div>
+      <script defer src="./jquery-3.6.0.min.js"></script>
+      <script defer src="./jquery-migrate-1.4.1.min.js"></script>
+      <script defer src="../slick/slick.min.js"></script>
+      <script defer src="./smtp.js"></script>
+      <script defer src="./script.js"></script>
     </footer>
   </body>
 </html>
